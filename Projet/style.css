@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@font-face {
+  font-family: "PressStart2P";
+  src: url("./font/PressStart2P-Regular.ttf");
+}
 
 /*General styling for structure*/
 body {
@@ -171,6 +179,7 @@ header h2 {
   width:auto;
   height: auto;
 }
-.pi{
+.pi article{
   line-height: 1.5em;
+  font-family: "PressStart2P";
 }
