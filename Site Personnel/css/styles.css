@@ -301,7 +301,7 @@ h3{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-a{
+.container a{
   font-size: 3em;
   text-decoration: none;
   color: ivory;
