@@ -191,7 +191,7 @@ h3{
   left: 50%;
 }
 
-.exp {
+.parcour {
   display : flex;
     flex-direction : row;
     flex-wrap: wrap;
@@ -202,13 +202,113 @@ h3{
     text-align: center;
 }
 
-.exp article{
+.parcour article{
   border-style: solid;
   border-width: thin;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 25px;
-  max-width: 50%;
+  max-width: 75%;
   text-align: start;
   font-family: Raleway;
   padding: 25px;
+  line-height: 3em;
+  font-size: 1.5em;
+}
+
+.rt {
+  display : flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:top;
+    padding-bottom: 27vh;
+    padding-top: 10vh;
+    text-align: center;
+    background-color: #b5e7a0;
+}
+
+.rt article{
+  border-style: solid;
+  border-width: thin;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 25px;
+  max-width: 75%;
+  text-align: start;
+  font-family: Raleway;
+  padding: 25px;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+#rack{
+  border-radius: 25px;
+}
+.projet {
+  display : flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:top;
+    padding-bottom: 27vh;
+    padding-top: 10vh;
+    text-align: center;
+    background-color: #000000;
+    color: ivory;
+}
+.prj{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  height: auto;
+  flex-basis: 25%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+a{
+  font-size: 3em;
+  text-decoration: none;
+  color: ivory;
+}
+h5{
+  font-size: 20px;
+}
+.credit{
+  font-size: 10px;
 }
