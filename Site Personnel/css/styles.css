@@ -302,7 +302,7 @@ h3{
   text-align: center;
 }
 .container a{
-  font-size: 3em;
+  font-size: 2.5em;
   text-decoration: none;
   color: ivory;
 }
@@ -312,3 +312,9 @@ h5{
 .credit{
   font-size: 10px;
 }
+
+@media (max-width: 1000px) {/* changement en fonction de la taille de l'ecran*/
+  .container {
+    flex-basis: 50%;
+  }
+ }
